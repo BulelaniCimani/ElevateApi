@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevate.Api", "Elevate.Api\Elevate.Api.csproj", "{4DE0A3F3-7B12-4087-8A49-5A96D209FBFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DE0A3F3-7B12-4087-8A49-5A96D209FBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE0A3F3-7B12-4087-8A49-5A96D209FBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE0A3F3-7B12-4087-8A49-5A96D209FBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE0A3F3-7B12-4087-8A49-5A96D209FBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1E88E8B-3EF5-41DF-B655-9EE319FEBAFC}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
