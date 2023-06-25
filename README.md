@@ -13,7 +13,6 @@ Technologies used:
 To run the project local:
 
 Set up your appSettings as below:
-
 {
   "ConnectionStrings": {
     "WebApiDatabase": ""
