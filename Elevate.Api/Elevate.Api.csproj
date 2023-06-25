@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'WorkCoach' " />
+  <ItemGroup>
+    <None Remove="Application\" />
+    <None Remove="Infrastructure\" />
+    <None Remove="Domain\" />
+    <None Remove="Application\Queries\" />
+    <None Remove="Application\Commands\" />
+    <None Remove="Application\Queries\Messages\" />
+    <None Remove="MediatR" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Application\Commands\Messages\" />
+    <None Remove="Application\ValueObjects\" />
+    <None Remove="Domain\Repositories\" />
+    <None Remove="Infrastructure\Integrations\" />
+    <None Remove="Application\Mappers\" />
+    <None Remove="Domain\ValueObjects\" />
+    <None Remove="Application\Helpers\" />
+    <None Remove="Infrastructure\Integrations\Models\" />
+    <None Remove="Infrastructure\Repositories\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Swashbuckle.AspNetCore.Swagger" />
+    <None Remove="Swashbuckle.AspNetCore.SwaggerGen" />
+    <None Remove="Swashbuckle.AspNetCore.SwaggerUI" />
+    <None Remove="Infrastructure\Migrations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Application\Queries\" />
+    <Folder Include="Application\Commands\" />
+    <Folder Include="Application\Queries\Messages\" />
+    <Folder Include="Application\Commands\Messages\" />
+    <Folder Include="Application\ValueObjects\" />
+    <Folder Include="Domain\Repositories\" />
+    <Folder Include="Infrastructure\Integrations\" />
+    <Folder Include="Application\Mappers\" />
+    <Folder Include="Domain\ValueObjects\" />
+    <Folder Include="Application\Helpers\" />
+    <Folder Include="Infrastructure\Integrations\Models\" />
+    <Folder Include="Infrastructure\Repositories\" />
+    <Folder Include="Infrastructure\Migrations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0" />
+  </ItemGroup>
+</Project>
