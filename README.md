@@ -1,1 +1,22 @@
 # ElevateApi
+
+
+Technologies used:
+
+ .Net 5
+ Entity framework 5
+ Postgress Database
+ Fluent Asserssions (unit testing)
+ XUnit 
+ Meditor library (de-coupling presentation layer and domain layer/ CQRS )
+
+To run the project local:
+
+Clone the repository :
+Set up your database 
+Run entity framework migrations
+
+Create migrations :  dotnet ef migrations add InitialCreate --output-dir  Infrastructure/Migrations
+Run migrations: dotnet ef migrations database update
+
+Once the above is completed, run the app.
