@@ -12,6 +12,50 @@ Technologies used:
 
 To run the project local:
 
+Set up your appSettings as below:
+
+{
+  "ConnectionStrings": {
+    "WebApiDatabase": ""
+  },
+
+  "HumanApiSettings": {
+    "BaseUrl": "{
+  "ConnectionStrings": {
+    "WebApiDatabase": ""
+  },
+
+  "HumanApiSettings": {
+    "BaseUrl": "https://auth.humanapi.co/",
+    "ClientId": "replace this with your client id",
+    "ClientSecret": "replace this with your client secret"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+
+  },
+  "AllowedHosts": "*"
+
+}",
+    "ClientId": "5726f93bd107d6ad899e272c48702f1767d60330",
+    "ClientSecret": "95fc4b8151e0c6eda5b7a436cddfbe8727231268"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+
+  },
+  "AllowedHosts": "*"
+
+}
+
 Clone the repository :
 Set up your database 
 Run entity framework migrations
