@@ -3,12 +3,12 @@
 
 Technologies used:
 
- .Net 5
- Entity framework 5
- Postgress Database
- Fluent Asserssions (unit testing)
- XUnit 
- Meditor library (de-coupling presentation layer and domain layer/ CQRS )
+  1) .Net 5
+  2) Entity framework 5
+  3) Postgress Database
+  4) Fluent Asserssions (unit testing)
+  5) XUnit 
+  6)  Meditor library (de-coupling presentation layer and domain layer/ CQRS )
 
 To run the project local:
 
